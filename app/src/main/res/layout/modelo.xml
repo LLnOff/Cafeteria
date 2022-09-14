@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.cardview.widget.CardView
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        tools:ignore="MissingConstraints">
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        >
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center|top"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/donuts"/>
-
-        <TextView
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="15dp"
-            android:text="Donults"
-            android:textAlignment="center"
-            android:textColor="#B22222"
-            android:textStyle="bold" />
-        <TextView
-            android:layout_width="400dp"
-            android:layout_height="40dp"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="20dp"
-            android:text="aquele trem doce"
-            android:textStyle="italic"
-            android:textAlignment="center"
-            android:textColor="#B22222"/>
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/person_photo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/person_name"
+                android:layout_toRightOf="@+id/person_photo"
+                android:layout_alignParentTop="true"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/person_age"
+                android:layout_toRightOf="@+id/person_photo"
+                android:layout_below="@+id/person_name"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
 
 
-    </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
