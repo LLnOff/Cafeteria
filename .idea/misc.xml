@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/font/font.xml" value="0.3958333333333333" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/layout/fragment_coffe.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/layout/fragment_muffin.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/layout/modelo.xml" value="0.36102564102564105" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCafeteria/app/src/main/res/menu/botton_navmenu.xml" value="0.36666666666666664" />
       </map>
     </option>
